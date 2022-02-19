@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Cantarell|Fjalla+One');
+
+/*******************
+GENERAL
+*******************/
+
+h1, h2, h3, h4, h5, h6, .brand-logo, .card-title {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+p, a {
+  font-family: 'Cantarell', sans-serif;
+}
+
+/*******************
+NAVIGATION
+*******************/
+
+nav {
+  margin-bottom: -30px;
+}
+
+.brand-logo {
+  margin-left: 10px;
+}
+
+.contact {
+  margin: 13px;
+}
+
+.phone {
+  margin-top: -12px;
+  margin-left: -10px
+}
+
+.contact {
+  display: none;
+}
+
+/*******************
+HERO
+*******************/
+
+.hero {
+  background-image: url("../img/hero.jpeg");
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.hero h2 {
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+}
+
+/*******************
+PROJECTS
+*******************/
+
+#projects {
+  margin-bottom: 50px;
+}
+
+#projects .card {
+  height: 250px;
+}
+
+#projects h2 {
+  text-align: center;
+}
+
+/*******************
+ABOUT
+*******************/
+
+#about {
+  margin-bottom: 50px;
+}
+
+#about h2 {
+  text-align: center;
+}
+
+#about p {
+  line-height: 2.5;
+  font-size: 1.2em;
+}
+
+/*******************
+SERVICES
+*******************/
+
+#services {
+  margin-bottom: 50px;
+}
+
+#services h2 {
+  text-align: center;
+}
+
+.card-title {
+  text-shadow: 2px 2px 2px #000;
+}
+
+/*******************
+FOOTER
+*******************/

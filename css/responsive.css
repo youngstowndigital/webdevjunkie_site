@@ -1,0 +1,33 @@
+@media (min-width: 992px) {
+  /*******************
+  NAVIGATION
+  *******************/
+  
+  .links {
+    margin-left: 35%;
+  }
+  
+  .contact {
+    display: block;
+  }
+  
+  /*******************
+  NAVIGATION
+  *******************/
+  
+  .hero h2 {
+    padding: 150px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  /*******************
+  NAVIGATION
+  *******************/
+  
+  .links {
+    margin-left: 40%;
+  }
+}
+
+
