@@ -7,3 +7,4 @@ phases:
   build:
     commands:
       - aws s3 cp ./src/ s3://$WEBSITE_BUCKET --recursive
+      - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_ID --paths="/*" 
