@@ -6,4 +6,4 @@ phases:
       nodejs: 12
   build:
     commands:
-      - aws s3 cp ./src/client/dist s3://$WEBSITE_BUCKET --recursive
+      - aws s3 cp ./ s3://$WEBSITE_BUCKET --recursive
